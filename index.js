@@ -3,8 +3,6 @@ const Parra = document.getElementById("ParaTest1")
 
 const ArrayLang = ["Hello There!", "Hola!", "こんにちは!", "안녕하십니까!", "Apa Khabar?", "Guten Tag!", "Bonjour!", "Grüß Gott!", "!السلام عليكم", "Moïen!"]
 var arrayLength = ArrayLang.length;
-
-
 textSequence(0);
         function textSequence(i) {
             if (arrayLength > i) {
